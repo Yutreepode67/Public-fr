@@ -1,0 +1,133 @@
+local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/WRUyYTdY"))()
+
+local Window = OrionLib:MakeWindow({
+    Name = "PRIVATE GUI BY PROLIKEBRO(PRIVATE)",
+    HidePremium = false,
+    SaveConfig = true,
+    ConfigFolder = "Private"
+})
+
+print("Successfully executed.")
+
+local Tab = Window:MakeTab({
+    Name = "Info",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "FEEEEE"
+})
+
+local playerName = game.Players.LocalPlayer.Name
+
+Tab:AddButton({
+    Name = "Welcome " .. playerName .. "! This is the best hub!",
+    Callback = function() end
+})
+
+Tab:AddButton({
+    Name = "Client replication",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/moedlol/toilet/main/When%20the%20world%20end"))()
+    end    
+})
+
+Tab:AddButton({
+    Name = "admin",
+    Callback = function()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Admin-fe-fr/refs/heads/main/admin%20FE"))()
+    end    
+})
+
+Tab:AddButton({
+    Name = "Grab kinfe",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Grab-knife-v4-24753"))()
+    end    
+})
+
+Tab:AddButton({
+    Name = "Anonymous Gui(Team Anonymous)",
+    Callback = function()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/hi822010/l/refs/heads/main/PRIVATEGUI.lua"))()
+    end    
+})
+
+Tab:AddButton({
+    Name = "Ro-xp",
+    Callback = function()
+        loadstring(game:GetObjects("rbxassetid://364364477")[1].Source)()
+    end    
+})
+
+Tab:AddButton({
+    Name = "ProJect SEcret",
+    Callback = function()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/hi822010/Infinity/refs/heads/main/ULTIMATE.lua"))()
+    end    
+})
+
+Tab:AddButton({
+    Name = "Keyboard",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+    end    
+})
+
+Tab:AddButton({
+    Name = "John Doe",
+    Callback = function()
+        loadstring(Game:HttpGet("https://rawscripts.net/raw/Universal-Script-John-doe-v2-29135"))()
+    end    
+})
+
+Tab:AddButton({
+    Name = "Domaint",
+    Callback = function()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Dominant-executor-29479"))()
+    end    
+})
+
+Tab:AddButton({
+    Name = "SSP",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/MagnumIceCream/SecretServicePanel/6fefdf531e86404fb41b7812e7e84b69c7ea728f/ShakesSSP"))()
+    end    
+})
+
+Tab:AddButton({
+    Name = "Sheldoni SS (does not fe)",
+    Callback = function()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/hi822010/Sheldoni-SS/refs/heads/main/source.lua"))()
+    end    
+})
+
+Tab:AddButton({
+    Name = "Budgie",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ADSKerOffical/Budgie-Hub_Client-Replication/main/Script"))()
+    end    
+})
+
+
+Tab:AddButton({
+    Name = "koop",
+    Callback = function()
+        loadstring(Game:HttpGet("https://rawscripts.net/raw/The-901617-Realm-k00pgui-v9-21788"))()
+    end    
+})
+
+Tab:AddButton({
+    Name = "Yong shel",
+    Callback = function()
+        loadstring(Game:HttpGet("https://pastebin.com/raw/rN1SzKSz"))()
+    end
+})
+
+Tab:AddButton({
+    Name = "another ssp",
+    Callback = function()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Tbh-Ssp/refs/heads/main/Fake%20ass%20SSP.txt"))()
+    end
+})
