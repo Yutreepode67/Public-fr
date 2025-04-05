@@ -133,8 +133,8 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Yaazkidd",
+    Name = "Another Yong Sheldon",
     Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/moedlol/-Yaazkidd/refs/heads/main/hi"))()
+loadstring(Game:HttpGet("https://pastebin.com/raw/bsW9hsAp"))()
     end
 })
