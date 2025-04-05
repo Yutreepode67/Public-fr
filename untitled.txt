@@ -131,3 +131,10 @@ Tab:AddButton({
         loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Tbh-Ssp/refs/heads/main/Fake%20ass%20SSP.txt"))()
     end
 })
+
+Tab:AddButton({
+    Name = "Yaazkidd",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/moedlol/-Yaazkidd/refs/heads/main/hi"))()
+    end
+})
