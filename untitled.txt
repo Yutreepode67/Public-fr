@@ -36,7 +36,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "admin",
     Callback = function()
-        loadstring(Game:HttpGet("https://gist.github.com/someunknowndude/38cecea5be9d75cb743eac8b1eaf6758/raw"))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
     end    
 })
 
