@@ -114,7 +114,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "koop",
     Callback = function()
-        loadstring(Game:HttpGet("https://rawscripts.net/raw/The-901617-Realm-k00pgui-v9-21788"))()
+        loadstring(game:HttpGet("https://pastes.io/raw/test-89401"))()
     end    
 })
 
@@ -136,5 +136,12 @@ Tab:AddButton({
     Name = "Harkaina",
     Callback = function()
 loadstring(Game:HttpGet("https://raw.githubusercontent.com/hi822010/Harkinian/refs/heads/main/Real"))()
+    end
+})
+
+Tab:AddButton({
+    Name = "Noot Noot",
+    Callback = function()
+loadstring(Game:HttpGet("https://rawscripts.net/raw/The-world-of-penguin-Noot-Noot-Script-21390"))()
     end
 })
