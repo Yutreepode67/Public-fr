@@ -1,7 +1,7 @@
 local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/WRUyYTdY"))()
 
 local Window = OrionLib:MakeWindow({
-    Name = "PRIVATE GUI BY PROLIKEBRO(PRIVATE)",
+    Name = "super anonymous",
     HidePremium = false,
     SaveConfig = true,
     ConfigFolder = "Private"
