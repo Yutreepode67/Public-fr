@@ -36,7 +36,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "admin",
     Callback = function()
-        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Admin-fe-fr/refs/heads/main/admin%20FE"))()
+        loadstring(Game:HttpGet("https://gist.github.com/someunknowndude/38cecea5be9d75cb743eac8b1eaf6758/raw"))()
     end    
 })
 
@@ -133,8 +133,8 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Another Yong Sheldon",
+    Name = "Harkaina",
     Callback = function()
-loadstring(Game:HttpGet("https://pastebin.com/raw/bsW9hsAp"))()
+loadstring(Game:HttpGet("https://raw.githubusercontent.com/hi822010/Harkinian/refs/heads/main/Real"))()
     end
 })
