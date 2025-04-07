@@ -1,7 +1,7 @@
 local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/WRUyYTdY"))()
 
 local Window = OrionLib:MakeWindow({
-    Name = "super anonymous",
+    Name = "Client Replication Best Gui",
     HidePremium = false,
     SaveConfig = true,
     ConfigFolder = "Private"
@@ -153,7 +153,7 @@ local Tab = Window:MakeTab({
 })
 
 local Section = Tab:AddSection({
-    Name = "MOREEEE"
+    Name = "Another Tab"
 })
 
 Tab:AddButton({
@@ -167,5 +167,19 @@ Tab:AddButton({
     Name = "Polaria",
     Callback = function()
 loadstring(Game:HttpGet("https://pastebin.com/raw/7yW3xXd6"))()
+    end
+})
+
+Tab:AddButton({
+    Name = "Herbert Exec",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaGunsX/HerbertV1/main/main.lua", true))()
+    end
+})
+
+Tab:AddButton({
+    Name = "Herbert hub",
+    Callback = function()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/LuaGunsX/HerbertV1/refs/heads/main/hub%20/hub.lua"))()
     end
 })
