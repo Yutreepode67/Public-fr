@@ -148,7 +148,7 @@ loadstring(Game:HttpGet("https://rawscripts.net/raw/The-world-of-penguin-Noot-No
 
 local Tab = Window:MakeTab({
     Name = "Another",
-    Icon = "rbxassetid://1",
+    Icon = "rbxassetid://7734058345",
     PremiumOnly = false
 })
 
