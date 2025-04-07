@@ -145,3 +145,27 @@ Tab:AddButton({
 loadstring(Game:HttpGet("https://rawscripts.net/raw/The-world-of-penguin-Noot-Noot-Script-21390"))()
     end
 })
+
+local Tab = Window:MakeTab({
+    Name = "Another",
+    Icon = "rbxassetid://1",
+    PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+    Name = "MOREEEE"
+})
+
+Tab:AddButton({
+    Name = "Has Secret",
+    Callback = function()
+loadstring(Game:HttpGet("https://pastebin.com/raw/953eWEfr"))()
+    end
+})
+
+Tab:AddButton({
+    Name = "Polaria",
+    Callback = function()
+loadstring(Game:HttpGet("https://pastebin.com/raw/7yW3xXd6"))()
+    end
+})
