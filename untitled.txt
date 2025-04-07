@@ -11,12 +11,12 @@ print("Successfully executed.")
 
 local Tab = Window:MakeTab({
     Name = "Info",
-    Icon = "rbxassetid://1",
+    Icon = "rbxassetid://7733964640",
     PremiumOnly = false
 })
 
 local Section = Tab:AddSection({
-    Name = "FEEEEE"
+    Name = "RepO"
 })
 
 local playerName = game.Players.LocalPlayer.Name
@@ -153,7 +153,7 @@ local Tab = Window:MakeTab({
 })
 
 local Section = Tab:AddSection({
-    Name = "Another Tab"
+    Name = "RepO2",
 })
 
 Tab:AddButton({
