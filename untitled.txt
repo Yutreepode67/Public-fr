@@ -192,3 +192,10 @@ Tab:AddButton({
         loadstring(Game:HttpGet("https://rawscripts.net/raw/Universal-Script-Synapse-Y-internal-mobile-ui-24989"))()
     end
 })
+
+Tab:AddButton({
+    Name = "Admin Another",
+    Callback = function()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Admin-oanith/refs/heads/main/Quick%20kick%20and%20other%20commands.txt"))()
+    end
+})
