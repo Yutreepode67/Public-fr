@@ -199,3 +199,10 @@ Tab:AddButton({
         loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Admin-oanith/refs/heads/main/Quick%20kick%20and%20other%20commands.txt"))()
     end
 })
+
+Tab:AddButton({
+    Name = "Infinite Hub",
+    Callback = function()
+        loadstring(Game:HttpGet("https://pastebin.com/raw/cZzjeCqg"))()
+    end
+})
