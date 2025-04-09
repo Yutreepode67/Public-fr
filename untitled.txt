@@ -161,7 +161,6 @@ local Section = Tab:AddSection({
 Tab:AddButton({
     Name = "Has Secret",
     Callback = function()
-
 loadstring(Game:HttpGet("https://pastebin.com/raw/953eWEfr"))()
     end
 })
@@ -169,7 +168,6 @@ loadstring(Game:HttpGet("https://pastebin.com/raw/953eWEfr"))()
 Tab:AddButton({
     Name = "Polaria",
     Callback = function()
-
 loadstring(Game:HttpGet("https://pastebin.com/raw/7yW3xXd6"))()
     end
 })
@@ -177,14 +175,13 @@ loadstring(Game:HttpGet("https://pastebin.com/raw/7yW3xXd6"))()
 Tab:AddButton({
     Name = "Herbert Exec",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaGunsX/HerbertV1/main/main.lua", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaGunsX/HerbertV1/main/main.lua", true))()
     end
 })
 
 Tab:AddButton({
     Name = "Super Admin(doesn't work)",
     Callback = function()
-
 loadstring(Game:HttpGet("https://raw.githubusercontent.com/hi822010/Dhfhemsuekwowueoesjjzdirirjjsiridndjejsbdjriwnsgriehegrid-PL-ejsjwowbreksekwnewjwkewjwhe/refs/heads/main/serveradmin.lua.txt"))()
     end
 })
@@ -192,7 +189,6 @@ loadstring(Game:HttpGet("https://raw.githubusercontent.com/hi822010/Dhfhemsuekwo
 Tab:AddButton({
     Name = "USSR gui",
     Callback = function()
-
 loadstring(Game:HttpGet('https://rawscripts.net/raw/Client-Replication-4x2x9x4x0-USSR-gui-33413"))()
     end    
 })
@@ -201,7 +197,6 @@ loadstring(Game:HttpGet('https://rawscripts.net/raw/Client-Replication-4x2x9x4x0
 Tab:AddButton({
     Name = "Vangels Rep Gui",
     Callback = function()
-
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vangeldrako/gui/refs/heads/main/clientrep"))()
     end    
 })
@@ -209,7 +204,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/vangeldrako/gui/refs/
 Tab:AddButton({
     Name = "Tuboos",
     Callback = function()
-
 loadstring(game:HttpGet("https://pastebin.com/raw/Z1invTk9"))()
     end
 })
@@ -217,7 +211,6 @@ loadstring(game:HttpGet("https://pastebin.com/raw/Z1invTk9"))()
 Tab:AddButton({
     Name = "Max 43k Gui",
     Callback = function()
-
 loadstring(game:HttpGet("https://pastebin.com/raw/UqiheNbB"))()
     end
 })
@@ -225,7 +218,6 @@ loadstring(game:HttpGet("https://pastebin.com/raw/UqiheNbB"))()
 Tab:AddButton({
     Name = "Synapse X",
     Callback = function()
-
 loadstring(Game:HttpGet("https://rawscripts.net/raw/Universal-Script-Synapse-Y-internal-mobile-ui-24989"))()
     end
 })
