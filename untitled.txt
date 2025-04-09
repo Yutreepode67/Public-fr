@@ -62,9 +62,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "ProJect SEcret",
+    Name = "Ghost Hub",
     Callback = function()
-        loadstring(Game:HttpGet("https://raw.githubusercontent.com/hi822010/Infinity/refs/heads/main/ULTIMATE.lua"))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
     end    
 })
 
@@ -83,9 +83,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Domaint",
+    Name = "random",
     Callback = function()
-        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Dominant-executor-29479"))()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/hi822010/Dhfhemsuekwowueoesjjzdirirjjsiridndjejsbdjriwnsgriehegrid-PL-ejsjwowbreksekwnewjwkewjwhe/refs/heads/main/kartic.lua.txt"))()
     end    
 })
 
@@ -178,8 +178,8 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Herbert hub",
+    Name = "Super Admin",
     Callback = function()
-        loadstring(Game:HttpGet("https://raw.githubusercontent.com/LuaGunsX/HerbertV1/refs/heads/main/hub%20/hub.lua"))()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/hi822010/Dhfhemsuekwowueoesjjzdirirjjsiridndjejsbdjriwnsgriehegrid-PL-ejsjwowbreksekwnewjwkewjwhe/refs/heads/main/serveradmin.lua.txt"))()
     end
 })
