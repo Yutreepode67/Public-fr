@@ -64,7 +64,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "Ghost Hub",
     Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+        loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Ghost-hub-22779"))()
     end    
 })
 
