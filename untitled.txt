@@ -83,9 +83,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "random(doesn't work)",
+    Name = "Rocky",
     Callback = function()
-        loadstring(Game:HttpGet("https://raw.githubusercontent.com/hi822010/Dhfhemsuekwowueoesjjzdirirjjsiridndjejsbdjriwnsgriehegrid-PL-ejsjwowbreksekwnewjwkewjwhe/refs/heads/main/kartic.lua.txt"))()
+        loadstring(game:GetObjects('rbxassetid://295850902')[1].Source)()
     end    
 })
 
@@ -170,20 +170,6 @@ Tab:AddButton({
     Callback = function()
 loadstring(Game:HttpGet("https://pastebin.com/raw/7yW3xXd6"))()
     end
-})
-
-Tab:AddButton({
-    Name = "Herbert Exec",
-    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaGunsX/HerbertV1/main/main.lua", true))()
-    end
-})
-
-Tab:AddButton({
-    Name = "USSR gui",
-    Callback = function()
-        loadstring(Game:HttpGet('https://rawscripts.net/raw/Client-Replication-4x2x9x4x0-USSR-gui-33413"))()
-    end    
 })
 
 Tab:AddButton({
