@@ -135,6 +135,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "Harkaina",
     Callback = function()
+
 loadstring(Game:HttpGet("https://raw.githubusercontent.com/hi822010/Harkinian/refs/heads/main/Real"))()
     end
 })
@@ -142,6 +143,7 @@ loadstring(Game:HttpGet("https://raw.githubusercontent.com/hi822010/Harkinian/re
 Tab:AddButton({
     Name = "Noot Noot",
     Callback = function()
+
 loadstring(Game:HttpGet("https://rawscripts.net/raw/The-world-of-penguin-Noot-Noot-Script-21390"))()
     end
 })
@@ -159,6 +161,7 @@ local Section = Tab:AddSection({
 Tab:AddButton({
     Name = "Has Secret",
     Callback = function()
+
 loadstring(Game:HttpGet("https://pastebin.com/raw/953eWEfr"))()
     end
 })
@@ -166,6 +169,7 @@ loadstring(Game:HttpGet("https://pastebin.com/raw/953eWEfr"))()
 Tab:AddButton({
     Name = "Polaria",
     Callback = function()
+
 loadstring(Game:HttpGet("https://pastebin.com/raw/7yW3xXd6"))()
     end
 })
@@ -180,6 +184,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "Super Admin(doesn't work)",
     Callback = function()
+
 loadstring(Game:HttpGet("https://raw.githubusercontent.com/hi822010/Dhfhemsuekwowueoesjjzdirirjjsiridndjejsbdjriwnsgriehegrid-PL-ejsjwowbreksekwnewjwkewjwhe/refs/heads/main/serveradmin.lua.txt"))()
     end
 })
@@ -187,6 +192,7 @@ loadstring(Game:HttpGet("https://raw.githubusercontent.com/hi822010/Dhfhemsuekwo
 Tab:AddButton({
     Name = "USSR gui",
     Callback = function()
+
 loadstring(Game:HttpGet('https://rawscripts.net/raw/Client-Replication-4x2x9x4x0-USSR-gui-33413"))()
     end    
 })
@@ -195,6 +201,7 @@ loadstring(Game:HttpGet('https://rawscripts.net/raw/Client-Replication-4x2x9x4x0
 Tab:AddButton({
     Name = "Vangels Rep Gui",
     Callback = function()
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vangeldrako/gui/refs/heads/main/clientrep"))()
     end    
 })
@@ -202,13 +209,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/vangeldrako/gui/refs/
 Tab:AddButton({
     Name = "Tuboos",
     Callback = function()
+
 loadstring(game:HttpGet("https://pastebin.com/raw/Z1invTk9"))()
     end
 })
 
 Tab:AddButton({
-    Name = "Max43kGui",
+    Name = "Max 43k Gui",
     Callback = function()
+
 loadstring(game:HttpGet("https://pastebin.com/raw/UqiheNbB"))()
     end
 })
@@ -216,6 +225,7 @@ loadstring(game:HttpGet("https://pastebin.com/raw/UqiheNbB"))()
 Tab:AddButton({
     Name = "Synapse X",
     Callback = function()
+
 loadstring(Game:HttpGet("https://rawscripts.net/raw/Universal-Script-Synapse-Y-internal-mobile-ui-24989"))()
     end
 })
