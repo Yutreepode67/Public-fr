@@ -229,3 +229,10 @@ Tab:AddButton({
 loadstring(Game:HttpGet("https://rawscripts.net/raw/Universal-Script-Synapse-Y-internal-mobile-ui-24989"))()
     end
 })
+
+Tab:AddButton({
+    Name = "Print",
+    Callback = function()
+print("SKIBDI HAWK TUAH HAWK TUAH ME ONNNN ME ONNNN ME")
+    end
+})
