@@ -180,8 +180,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaGunsX/HerbertV1/ma
 })
 
 Tab:AddButton({
-    Name = "Super Admin(doesn't work)",
+    Name = "second part",
     Callback = function()
-
+loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Ouuha/refs/heads/main/Second%20Part%20Of%20Public"))()
     end
 })
