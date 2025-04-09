@@ -180,8 +180,29 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaGunsX/HerbertV1/ma
 })
 
 Tab:AddButton({
-    Name = "second part",
+    Name = "USSR gui",
     Callback = function()
-loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Ouuha/refs/heads/main/Second%20Part%20Of%20Public"))()
+        loadstring(Game:HttpGet('https://rawscripts.net/raw/Client-Replication-4x2x9x4x0-USSR-gui-33413"))()
+    end    
+})
+
+Tab:AddButton({
+    Name = "Tuboos",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/Z1invTk9"))()
+    end
+})
+
+Tab:AddButton({
+    Name = "Max43kGui",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/UqiheNbB"))()
+    end
+})
+
+Tab:AddButton({
+    Name = "Synapse X",
+    Callback = function()
+        loadstring(Game:HttpGet("https://rawscripts.net/raw/Universal-Script-Synapse-Y-internal-mobile-ui-24989"))()
     end
 })
