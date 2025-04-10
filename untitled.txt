@@ -213,3 +213,10 @@ Tab:AddButton({
         game:GetObjects("rbxassetid://166330068")[1].Parent = game.Players.LocalPlayer.PlayerGui
     end
 })
+
+Tab:AddButton({
+    Name = "Minigun",
+    Callback = function()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Minigun/refs/heads/main/MiniGun.txt"))()
+    end
+})
