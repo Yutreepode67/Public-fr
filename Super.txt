@@ -187,8 +187,8 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Minigun",
+    Name = "Something",
     Callback = function()
-        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Minigun/refs/heads/main/MiniGun.txt"))()
+        loadstring(Game:HttpGet("https://pastebin.com/raw/DxMwPkXH"))()
     end
 })
