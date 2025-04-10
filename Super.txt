@@ -213,3 +213,10 @@ Tab:AddButton({
         loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Minigun/refs/heads/main/MiniGun.txt"))()
     end
 })
+
+Tab:AddButton({
+    Name = "Candu Van",
+    Callback = function()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Candy-vam/refs/heads/main/Candy%20Van.txt"))()
+    end
+})
