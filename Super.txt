@@ -201,74 +201,8 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Mini executor",
-    Callback = function()
-        -- Create the UI
-local ScreenGui = Instance.new("ScreenGui", game.Players.LocalPlayer:WaitForChild("PlayerGui"))
-ScreenGui.Name = "SigmaExec"
-
-local Frame = Instance.new("Frame", ScreenGui)
-Frame.Size = UDim2.new(0, 250, 0, 150)
-Frame.Position = UDim2.new(0.5, -125, 0.5, -75)
-Frame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-Frame.BorderSizePixel = 0
-Frame.Active = true
-Frame.Draggable = true
-
-local Title = Instance.new("TextLabel", Frame)
-Title.Size = UDim2.new(1, 0, 0, 25)
-Title.BackgroundTransparency = 1
-Title.Text = "Mini Executor"
-Title.TextColor3 = Color3.new(1, 1, 1)
-Title.Font = Enum.Font.SourceSansBold
-Title.TextSize = 18
-
-local TextBox = Instance.new("TextBox", Frame)
-TextBox.Position = UDim2.new(0, 5, 0, 30)
-TextBox.Size = UDim2.new(1, -10, 0, 80)
-TextBox.Text = "-- Enter script here"
-TextBox.TextWrapped = true
-TextBox.TextColor3 = Color3.new(1, 1, 1)
-TextBox.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
-TextBox.ClearTextOnFocus = false
-TextBox.TextXAlignment = Enum.TextXAlignment.Left
-TextBox.TextYAlignment = Enum.TextYAlignment.Top
-TextBox.Font = Enum.Font.Code
-TextBox.TextSize = 14
-TextBox.MultiLine = true
-
-local ExecuteButton = Instance.new("TextButton", Frame)
-ExecuteButton.Position = UDim2.new(0.5, -40, 1, -35)
-ExecuteButton.Size = UDim2.new(0, 80, 0, 30)
-ExecuteButton.Text = "Execute"
-ExecuteButton.Font = Enum.Font.SourceSansBold
-ExecuteButton.TextSize = 16
-ExecuteButton.TextColor3 = Color3.new(1, 1, 1)
-ExecuteButton.BackgroundColor3 = Color3.fromRGB(40, 100, 40)
-
--- Function to run code
-ExecuteButton.MouseButton1Click:Connect(function()
-	local source = TextBox.Text
-	local func, err = loadstring(source)
-	if func then
-		pcall(func)
-	else
-		warn("Script Error:", err)
-	end
-end)
-    end
-})
-
-Tab:AddButton({
     Name = "Something",
     Callback = function()
         loadstring(Game:HttpGet("https://pastebin.com/raw/DxMwPkXH"))()
-    end
-})
-
-Tab:AddButton({
-    Name = "candy van",
-    Callback = function()
-        loadstring(Game:HttpGet)"https://raw.githubusercontent.com/Yutreepode67/Candy-vam/refs/heads/main/Candy%20Van.txt"))()
     end
 })
