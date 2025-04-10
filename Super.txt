@@ -215,8 +215,15 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Candu Van",
+    Name = "Candy Van",
     Callback = function()
         loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Candy-vam/refs/heads/main/Candy%20Van.txt"))()
+    end
+})
+
+Tab:AddButton({
+    Name = "Candy Van",
+    Callback = function()
+        game:GetObjects("rbxassetid://166330068")[1].Parent = game.Players.LocalPlayer.PlayerGui
     end
 })
