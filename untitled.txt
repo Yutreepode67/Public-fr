@@ -201,8 +201,8 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Infinite Hub",
+    Name = "Soonlkidd",
     Callback = function()
-        loadstring(Game:HttpGet("https://pastebin.com/raw/cZzjeCqg"))()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Soonlkidd/refs/heads/main/Soonlkidd%20gui.txt"))()
     end
 })
