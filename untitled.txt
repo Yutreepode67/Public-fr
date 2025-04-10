@@ -206,3 +206,10 @@ Tab:AddButton({
         loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Soonlkidd/refs/heads/main/Soonlkidd%20gui.txt"))()
     end
 })
+
+Tab:AddButton({
+    Name = "Exploit Gui",
+    Callback = function()
+        game:GetObjects("rbxassetid://166330068")[1].Parent = game.Players.LocalPlayer.PlayerGui
+    end
+})
