@@ -241,3 +241,10 @@ Tab:AddButton({
         loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Private-executer-don-t-ask-me-why-it-is-public-if-found-/refs/heads/main/Private"))()
     end
 })
+
+Tab:AddButton({
+    Name = "Fe Trolling",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/BeamV1/FETrollGui/master/Main",true))()
+    end
+})
