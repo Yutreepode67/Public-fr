@@ -222,8 +222,15 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Candy Van",
+    Name = "Exp0lit Gu!",
     Callback = function()
         game:GetObjects("rbxassetid://166330068")[1].Parent = game.Players.LocalPlayer.PlayerGui
+    end
+})
+
+Tab:AddButton({
+    Name = "External Gu!",
+    Callback = function()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/PrivateServerLinkCode/refs/heads/main/PRIVATEGUI.lua"))()
     end
 })
