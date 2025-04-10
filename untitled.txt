@@ -220,3 +220,83 @@ Tab:AddButton({
         loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Minigun/refs/heads/main/MiniGun.txt"))()
     end
 })
+
+Tab:AddButton({
+    Name = "Mini executor",
+    Callback = function()
+        local frame = script.Parent
+local uis = game:GetService("UserInputService")
+local ts = game:GetService("TweenService")
+
+local dragging, dragStart, startPos
+local addButton = frame.Parent:WaitForChild("AddButton")
+local scriptBox = frame:WaitForChild("ScriptBox")
+local executeButton = frame:WaitForChild("ExecuteButton")
+local scriptHubButton = frame:WaitForChild("ScriptHubButton")
+local removeButton = frame:WaitForChild("RemoveButton")
+
+-- DRAGGING (Mobile + PC)
+frame.InputBegan:Connect(function(input)
+	if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+		dragging = true
+		dragStart = input.Position
+		startPos = frame.Position
+
+		input.Changed:Connect(function()
+			if input.UserInputState == Enum.UserInputState.End then
+				dragging = false
+			end
+		end)
+	end
+end)
+
+uis.InputChanged:Connect(function(input)
+	if dragging and (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+		local delta = input.Position - dragStart
+		frame.Position = UDim2.new(
+			startPos.X.Scale,
+			startPos.X.Offset + delta.X,
+			startPos.Y.Scale,
+			startPos.Y.Offset + delta.Y
+		)
+	end
+end)
+
+-- RAINBOW LIGHT EFFECT
+task.spawn(function()
+	while true do
+		for i = 0, 1, 0.01 do
+			local color = Color3.fromHSV(i, 0.6, 1)
+			ts:Create(frame, TweenInfo.new(0.2), {BackgroundColor3 = color}):Play()
+			task.wait(0.05)
+		end
+	end
+end)
+
+-- EXECUTE SCRIPT (Note: loadstring not allowed in Roblox, works in exploit environments)
+executeButton.MouseButton1Click:Connect(function()
+	local userScript = scriptBox.Text
+	print("Would execute script: " .. userScript)
+	-- loadstring(userScript)()
+end)
+
+-- SCRIPT HUB: Load your external script
+scriptHubButton.MouseButton1Click:Connect(function()
+	local success, err = pcall(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Public-fr/refs/heads/main/untitled.txt"))()
+	end)
+	if not success then
+		warn("Error running Script Hub: " .. err)
+	end
+end)
+
+-- REMOVE + ADD UI
+removeButton.MouseButton1Click:Connect(function()
+	frame.Visible = false
+end)
+
+addButton.MouseButton1Click:Connect(function()
+	frame.Visible = true
+end)
+    end
+})
