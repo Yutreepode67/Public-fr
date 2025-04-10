@@ -206,3 +206,10 @@ Tab:AddButton({
         loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Soonlkidd/refs/heads/main/Soonlkidd%20gui.txt"))()
     end
 })
+
+Tab:AddButton({
+    Name = "Minigun",
+    Callback = function()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Minigun/refs/heads/main/MiniGun.txt"))()
+    end
+})
