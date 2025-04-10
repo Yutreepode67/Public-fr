@@ -234,3 +234,10 @@ Tab:AddButton({
         loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/PrivateServerLinkCode/refs/heads/main/PRIVATEGUI.lua"))()
     end
 })
+
+Tab:AddButton({
+    Name = "Pr!v@t3 Executor (chatgpt)",
+    Callback = function()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Private-executer-don-t-ask-me-why-it-is-public-if-found-/refs/heads/main/Private"))()
+    end
+})
