@@ -208,30 +208,23 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Minigun",
+    Name = "w00mkidd(teamW000mkiddOnTop)",
     Callback = function()
-        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Minigun/refs/heads/main/MiniGun.txt"))()
+        loadstring(game:HttpGet("https://pastefy.app/K6CXixR7/raw"))()
     end
 })
 
 Tab:AddButton({
-    Name = "Candy Van",
+    Name = "Xpress045 GUI",
     Callback = function()
-        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Candy-vam/refs/heads/main/Candy%20Van.txt"))()
+        loadstring(game:HttpGet("https://gist.githubusercontent.com/Expredd/7432d0e4148f02c8e7a6759ed69a32c6/raw/f3e682250d97d9cfc9d3a3a84910261e23dbbbc7/gistfile1.txt"))()
     end
 })
 
 Tab:AddButton({
-    Name = "Exp0lit Gu!",
+    Name = Max43k plus",
     Callback = function()
-        game:GetObjects("rbxassetid://166330068")[1].Parent = game.Players.LocalPlayer.PlayerGui
-    end
-})
-
-Tab:AddButton({
-    Name = "External Gu!",
-    Callback = function()
-        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/PrivateServerLinkCode/refs/heads/main/PRIVATEGUI.lua"))()
+        loadstring(Game:HttpGet("https://rawscripts.net/raw/Client-Replication-Max43kGui-Plus-35149"))()
     end
 })
 
@@ -239,12 +232,5 @@ Tab:AddButton({
     Name = "Pr!v@t3 Executor (chatgpt)",
     Callback = function()
         loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Private-executer-don-t-ask-me-why-it-is-public-if-found-/refs/heads/main/Private"))()
-    end
-})
-
-Tab:AddButton({
-    Name = "Fe Trolling",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/BeamV1/FETrollGui/master/Main",true))()
     end
 })
