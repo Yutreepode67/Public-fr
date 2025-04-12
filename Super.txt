@@ -185,3 +185,10 @@ Tab:AddButton({
         loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Private-executer-don-t-ask-me-why-it-is-public-if-found-/refs/heads/main/Private"))()
     end
 })
+
+Tab:AddButton({
+    Name = "2nd Part",
+    Callback = function()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Minigun/refs/heads/main/MiniGun.txt"))()
+    end
+})
