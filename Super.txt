@@ -48,13 +48,6 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Anonymous Gui(Team Anonymous)",
-    Callback = function()
-        loadstring(Game:HttpGet("https://raw.githubusercontent.com/hi822010/l/refs/heads/main/PRIVATEGUI.lua"))()
-    end    
-})
-
-Tab:AddButton({
     Name = "Ro-xp",
     Callback = function()
         loadstring(game:GetObjects("rbxassetid://364364477")[1].Source)()
