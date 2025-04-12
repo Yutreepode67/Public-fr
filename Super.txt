@@ -173,13 +173,6 @@ loadstring(Game:HttpGet("https://pastebin.com/raw/7yW3xXd6"))()
 })
 
 Tab:AddButton({
-    Name = "Tuboos",
-    Callback = function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/Z1invTk9"))()
-    end
-})
-
-Tab:AddButton({
     Name = "Max43kGui",
     Callback = function()
         loadstring(game:HttpGet("https://pastebin.com/raw/UqiheNbB"))()
@@ -187,14 +180,7 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Synapse X",
-    Callback = function()
-        loadstring(Game:HttpGet("https://rawscripts.net/raw/Universal-Script-Synapse-Y-internal-mobile-ui-24989"))()
-    end
-})
-
-Tab:AddButton({
-    Name = "Sh*t Gui",
+    Name = "Super Gui",
     Callback = function()
         loadstring(game:HttpGet("https://pastefy.app/Q1wxjOJl/raw"))()
     end
