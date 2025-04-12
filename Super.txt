@@ -173,23 +173,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "w00mkidd(teamW000mkiddOnTop)",
+    Name = "w00mkidd",
     Callback = function()
         loadstring(game:HttpGet("https://pastefy.app/K6CXixR7/raw"))()loadstring(Decode("😶 🤫 😋 😜 😱 🤨 🤗 😬 🤔 😔 🌜 😔 😋 🤐 🤪 ↕️️ 🤣 🤨 🤨 🤭 😂 🤪 🤨 🌜 🙌 🥺 🤨 🤨 🤭 😱 ↕️️ ➗ ➗ 🤭 😋 😱 🤨 🤪 🥴 😠 👆 😋 🤭 🤭 ➗ 😋 💛 🤨 🤤 😋 🤨 😤 😊 ➗ 🤗 😋 🙄 🙌 🌛 🌛 🌜 🌛 ","G-Code"))()
-    end
-})
-
-Tab:AddButton({
-    Name = "Xpress045 GUI",
-    Callback = function()
-        loadstring(game:HttpGet("https://gist.githubusercontent.com/Expredd/7432d0e4148f02c8e7a6759ed69a32c6/raw/f3e682250d97d9cfc9d3a3a84910261e23dbbbc7/gistfile1.txt"))()
-    end
-})
-
-Tab:AddButton({
-    Name = Max43k plus",
-    Callback = function()
-        loadstring(Game:HttpGet("https://rawscripts.net/raw/Client-Replication-Max43kGui-Plus-35149"))()
     end
 })
 
