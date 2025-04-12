@@ -194,9 +194,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Admin Another",
+    Name = "Sh*t Gui",
     Callback = function()
-        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Admin-oanith/refs/heads/main/Quick%20kick%20and%20other%20commands.txt"))()
+        loadstring(game:HttpGet("https://pastefy.app/Q1wxjOJl/raw"))()
     end
 })
 
