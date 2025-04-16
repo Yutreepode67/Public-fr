@@ -182,7 +182,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "Pr!v@t3 Executor",
     Callback = function()
-        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Ks/refs/heads/main/PRIVATE"))()
+        print('Development')
     end
 })
 
