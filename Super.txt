@@ -78,7 +78,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "SSP",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/MagnumIceCream/SecretServicePanel/6fefdf531e86404fb41b7812e7e84b69c7ea728f/ShakesSSP"))()
+        loadstring(Game:HttpGet("https://scriptblox.com/raw/Universal-Script-Citizens-secret-service-panel-LEAKED-8379%22))()
     end    
 })
 
