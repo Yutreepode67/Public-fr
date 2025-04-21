@@ -78,7 +78,7 @@ Tab:AddButton({
 Tab:AddButton({
     Name = "Fling Gui",
     Callback = function()
-        loadstring(Game:HttpGet+"https://raw.githubusercontent.com/Yutreepode67/Public-fr/refs/heads/main/J"))()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Public-fr/refs/heads/main/J"))()
     end    
 })
 
