@@ -27,9 +27,9 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-    Name = "Client replication",
+    Name = "rel nachos",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/moedlol/toilet/main/When%20the%20world%20end"))()
+        loadstring(Game:HttpGet("https://raw.githubusercontent.com/Yutreepode67/Ks/refs/heads/main/Real%20nachos.txt"))()
     end    
 })
 
