@@ -46,3 +46,17 @@ Tab:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe/main/obf_rf6iQURzu1fqrytcnLBAvW34C9N55kS9g9G3CKz086rC47M6632sEd4ZZYB0AYgV.lua.txt"))()
     end    
 })
+
+Tab:AddButton({
+    Name = "Accesories script",
+    Callback = function()
+        AutoLoadSavedAccessories = true --make it true if you want to auto load your saved accessories without showing the gui loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/refs/heads/main/ScriptAuthorization%20Source'))()Ioad('1cf0d246861bd474cff49060ffb7d26b')
+    end    
+})
+
+Tab:AddButton({
+    Name = "Minigun",
+    Callback = function()
+        loadstring(game:HttpGet("https://gist.githubusercontent.com/MelonsStuff/e7b408abcb813525d37e9b7a6bf301c9/raw/6421f9000e90e8a4c2ed57052208acbd6f9648dd/Minigun.txt"))()
+    end    
+})
